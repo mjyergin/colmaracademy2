@@ -156,7 +156,7 @@ ul {
 }
 
 .left-column2 h2{
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bolder;
   line-height: 1.25;
   margin-top: 2rem;
@@ -226,4 +226,55 @@ ul {
 
 .text h4{
   color: aquamarine;
+}
+
+/*Learning*/
+.learning {
+  background-color: lightgrey;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.title h1{
+  background-color: lightgrey;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.description {
+  background-color: white;
+  height: 15rem;
+  width: 100%;
+  margin-bottom: 2rem;
+
+}
+
+.class {
+  width: 30%;
+}
+
+.course-image img{
+  width: 100%;
+}
+
+.description h2{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+
+}
+
+.description h5,h4{
+  font-size: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+
+
 }
