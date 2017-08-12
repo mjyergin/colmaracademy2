@@ -115,6 +115,10 @@ ul {
   font-size: 2rem;
 }
 
+.right-column span:hover{
+  color: red;
+}
+
 /*Jumbotron2*/
 
 
@@ -148,6 +152,7 @@ ul {
     width: 40%;
     /*display: inline-flex;*/
     justify-content: center;
+    margin-top: 2rem;
 }
 
 .left-column2 h2{
@@ -191,6 +196,10 @@ ul {
   display: flex;
 }
 
+.info:hover{
+  background-color: lightgrey;
+}
+
 .right-column2 .image{
   height: auto;
   width: 35%;
@@ -199,6 +208,22 @@ ul {
 .right-column2 .text{
   width: 65%;
   margin-top: 2rem;
+  margin-left: 1rem;
+  line-height: 2rem;
 
   /*display: flex;*/
+}
+
+.text h2{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: .5rem;
+}
+
+.text h5{
+  font-size: 1.1rem;
+}
+
+.text h4{
+  color: aquamarine;
 }
