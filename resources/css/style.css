@@ -429,11 +429,14 @@ ul {
   padding-right: 6rem;
 }
 
-#jumbotron-mobile{
+.jumbotron-mobile{
   width: 100%;
+  display: flex;
+  flex-direction: column;
   /*height: auto;*/
-
 }
+
+
 
 #mobile-learning {
   background-color: white;
