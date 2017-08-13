@@ -4,6 +4,9 @@ body {
   font-family: Roboto;
 }
 
+
+
+
 /*header styles*/
 
 .flex-container {
@@ -402,5 +405,111 @@ ul {
   /*padding-top: 1rem;*/
 }
 .footer li{
+
+}
+
+/*media queries*/
+
+
+
+
+
+@media only screen and (max-width: 750px) {
+/*mobile*/
+
+.desktop {
+  display: none;
+}
+#mobile-logo{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo img{
+  padding-right: 6rem;
+}
+
+#jumbotron-mobile{
+  width: 100%;
+  /*height: auto;*/
+
+}
+
+#mobile-learning {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+}
+
+#mobile-learning,.thesis h1{
+  font-size: 3.5rem;
+  font-weight:700;
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  /*text-align: center;*/
+
+}
+
+.section {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.major {
+  width: 85%;
+  height: 5rem;
+  background-color: lightgrey;
+  display: flex;
+  margin-bottom: 0.5rem;
+
+}
+
+.major h2{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 2rem;
+  line-height: 1.5;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+#no-column{
+  width: 100%;
+}
+#thesis-mobile{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*height: auto;*/
+}
+
+#thesis-mobile video {
+  width: 100%;
+}
+
+#thesis-mobile h1 {
+ margin-left: auto;
+ margin-right: auto;
+}
+}
+@media only screen and (min-width: 750px){
+/*desktop*/
+
+.mobile {
+  display: none;
+
+}
+
 
 }

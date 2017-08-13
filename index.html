@@ -20,13 +20,16 @@
   <body>
     <!--header-->
     <div class="header">
-      <header class="flex-container">
+      <header class="flex-container" id="mobile-logo">
         <div class="logo">
           <img src="./resources/images/ic-logo.svg" alt="logo">
-          <span>Colmar<span id="thin">Academy</span></span>
+          <img class="mobile" src="./resources/images/ic-on-campus.svg" alt="logo">
+          <img class="mobile" src="./resources/images/ic-online.svg" alt="logo">
+          <img class="mobile" src="./resources/images/ic-login.svg" alt="logo">
+          <span class="desktop">Colmar<span id="thin">Academy</span></span>
         </div>
         <nav>
-          <ul>
+          <ul class="desktop">
             <li><span>On Campus</span></li>
             <li><span>OnLine</span></li>
             <li><span>For Companies</span></li>
@@ -37,10 +40,10 @@
     </div>
 <!--Jumbotron-->
   <div class="jumbotron">
-    <div class="left-column">
+    <div class="left-column" id="jumbotron-mobile">
       <img src="./resources/images/banner.jpg" alt="">
     </div>
-    <div class="right-column">
+    <div class="right-column desktop">
       <h1>Learn Something New Every Day</h1>
       <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
       <span>Start Here</span>
@@ -48,7 +51,7 @@
   </div>
 <!--Jumbotron2-->
 <div class="jumbotron2">
-  <div class="left-column2">
+  <div class="left-column2 desktop">
     <img src="./resources/images/information-main.jpg" alt="">
     <h2>It doesn't hurt to keep practicing</h2>
     <h4>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</h4>
@@ -88,10 +91,10 @@
   </div>
 </div>
 <!--Learning-->
-<div class="title">
+<div class="title desktop">
   <h1>Start Learning</h1>
 </div>
-<div class="learning">
+<div class="learning desktop">
   <div class="class">
     <div class="course-image">
       <img src="./resources/images/course-software.jpg" alt="">
@@ -153,15 +156,41 @@
     </div>
   </div>
 </div>
+<!--mobile learning-->
+<div class=" section mobile" id="mobile-learning">
+      <div>
+        <h1>Start Learning</h1>
+      </div>
+      <div class="major">
+        <h2>Software Engineering</h2>
+      </div>
+      <div class="major">
+        <h2>Computer art</h2>
+      </div>
+      <div class="major">
+        <h2>Design</h2>
+      </div>
+      <div class="major">
+        <h2>Data</h2>
+      </div>
+      <div class="major">
+        <h2>Business</h2>
+      </div>
+      <div class="major">
+        <h2>Marketing</h2>
+      </div>
+    </div>
+
 <!--Thesis-->
-<div class="thesis">
-  <div class="left-column2">
+<div class="thesis" id="thesis-mobile">
+  <h1 class="mobile">Thesis Exhibits</h1>
+  <div class="left-column2" id="no-column">
     <video src="./resources/videos/thesis.mp4" type="video/mp4" controls></video>
     <!-- <img src="./resources/images/information-main.jpg" alt=""> -->
-    <h2>Reimagine Urban</h2>
-    <h4>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</h4>
+    <h2 class="desktop">Reimagine Urban</h2>
+    <h4 class="desktop">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</h4>
   </div>
-  <div class="right-column2">
+  <div class="right-column2 desktop">
     <div class="info">
       <div class="thesis-image">
         <img src="./resources/images/thesis-fisma.jpg" alt="">
