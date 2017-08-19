@@ -64,7 +64,7 @@ ul {
 /*jumbotron styles*/
 
 .jumbotron {
-  width: 100%;
+  max-width: 100%;
   background-color: lightgrey;
   height: auto;
   display: inline-flex;
@@ -89,10 +89,11 @@ ul {
 }
 
 .right-column{
-    width: 40%%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 1.5rem;
 }
 
 .right-column h1{
@@ -126,7 +127,7 @@ ul {
 
 
 .jumbotron2 {
-  width: 100%;
+  max-width: 100%;
   background-color: lightblue;
   height: auto;
   display: inline-flex;
@@ -139,7 +140,7 @@ ul {
   height: auto;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  /*margin-left: 1.5rem;*/
+  /*margin-left: 1rem;*/
   /*margin-right: 1.5rem;*/
   /*display: flex;*/
 }
@@ -148,7 +149,7 @@ ul {
   /*display: flex;*/
   width: 60%;
   margin-right: 1.5rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .right-column2{
@@ -156,6 +157,7 @@ ul {
     /*display: inline-flex;*/
     justify-content: center;
     margin-top: 2rem;
+    margin-left: 0;
 }
 
 .left-column2 h2{
@@ -206,6 +208,7 @@ ul {
 .right-column2 .image{
   height: auto;
   width: 35%;
+  margin-left: 1rem;
 }
 
 .right-column2 .text{
@@ -235,10 +238,16 @@ ul {
 .learning {
   background-color: lightgrey;
   height: auto;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+}
+
+.title {
+  width: 100%;
 }
 .title h1{
   background-color: lightgrey;
@@ -297,7 +306,7 @@ ul {
   width:100%;
   height: auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  /*margin-bottom: 2rem;*/
   /*margin-left: 1.5rem;*/
   /*margin-right: 1.5rem;*/
   /*display: flex;*/
@@ -306,8 +315,8 @@ ul {
 .left-column2{
   /*display: flex;*/
   width: 60%;
-  margin-right: 1.5rem;
-  margin-left: 1rem;
+  /*margin-right: 1.5rem;*/
+  margin-left: 1.5rem;
 }
 
 .right-column2{
@@ -321,13 +330,15 @@ ul {
   font-size: 2rem;
   font-weight: bolder;
   line-height: 1.25;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
 }
 .left-column2 h4{
   font-size: 1rem;
   font-weight: bolder;
   line-height: 1.25;
+  padding: 0;
+  margin-bottom: 2rem;
 }
 .left-column2 p{
   font-size: 1rem;
@@ -410,12 +421,22 @@ ul {
 
 /*media queries*/
 
+@media only screen and (min-width: 750px){
+/*desktop*/
 
+.mobile {
+  display: none;
+
+}
+
+
+}
 
 
 
 @media only screen and (max-width: 750px) {
 /*mobile*/
+
 
 .desktop {
   display: none;
@@ -427,6 +448,11 @@ ul {
 
 .logo img{
   padding-right: 6rem;
+  height: 2rem;
+}
+
+#firstlogo {
+  padding-left: 4rem;
 }
 
 .jumbotron-mobile{
@@ -435,6 +461,27 @@ ul {
   flex-direction: column;
   /*height: auto;*/
 }
+
+.jumbotron-mobile img {
+  margin: 0;
+}
+.jumbotron-mobile h1 {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.jumbotron-mobile h3 {
+  margin-left: 1rem;
+
+}
+.jumbotron-mobile span {
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+  width: 85%;
+}
+
+
 
 
 
@@ -454,7 +501,6 @@ ul {
   display: flex;
   margin-bottom: 1rem;
   margin-top: 2rem;
-  /*text-align: center;*/
 
 }
 
@@ -476,6 +522,10 @@ ul {
 
 }
 
+.major:hover {
+  background-color: blue;
+}
+
 .major h2{
   font-size: 2rem;
   font-weight: 500;
@@ -489,6 +539,7 @@ ul {
 
 #no-column{
   width: 100%;
+  margin: 0;
 }
 #thesis-mobile{
   width: 100%;
@@ -499,11 +550,14 @@ ul {
 
 #thesis-mobile video {
   width: 100%;
+  margin: 0;
+  padding: 0;
+
 }
 
 #thesis-mobile h1 {
- margin-left: auto;
- margin-right: auto;
+ justify-content: center;
+
 }
 }
 @media only screen and (min-width: 750px){
