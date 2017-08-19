@@ -495,22 +495,22 @@ ul {
   margin: 0;
 }
 .jumbotron-mobile .left-column {
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 .jumbotron-mobile h1 {
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
 .jumbotron-mobile h3 {
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   font-size: 1.5rem;
 
 }
 .jumbotron-mobile span {
-  margin-left: 1rem;
+  /*margin-left: 1rem;*/
   margin-top: 1.5rem;
   margin-bottom: 2rem;
   width: 85%;
@@ -522,21 +522,30 @@ ul {
 
 #mobile-learning {
   background-color: white;
-  display: flex;
+  /*display: flex;*/
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+  /*justify-content: center;*/
+  /*align-items: flex-start;*/
   height: auto;
 }
 
-#mobile-learning,.thesis h1{
-  font-size: 3.5rem;
-  font-weight:700;
+#thesis-title h1{
+  font-size: 3rem;
+  font-weight: 700;
   width: 100%;
-  display: flex;
+  /*display: flex;*/
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+#mobile-learning-title {
   margin-bottom: 1rem;
   margin-top: 2rem;
 
+  font-size: 3rem;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
 }
 
 .section {
@@ -552,7 +561,7 @@ ul {
   width: 85%;
   height: 5rem;
   background-color: lightgrey;
-  display: flex;
+  /*display: flex;*/
   margin-bottom: 0.5rem;
 
 }
@@ -564,7 +573,7 @@ ul {
 .major h2{
   font-size: 2rem;
   font-weight: 500;
-  margin-left: 2rem;
+  /*margin-left: 2rem;*/
   line-height: 1.5;
   margin-left: 1rem;
   margin-top: 1rem;
@@ -591,7 +600,7 @@ ul {
 }
 
 #thesis-mobile h1 {
- justify-content: center;
+ /*justify-content: center;*/
 
 }
 }
