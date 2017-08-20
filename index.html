@@ -50,17 +50,18 @@
     </div>
   </div>
 <!--Jumbotron2-->
-<div class="jumbotron2">
+<div class="jumbotron2 jumbotron-mobile">
   <div class="left-column2 desktop">
     <img src="./resources/images/information-main.jpg" alt="">
     <h2>It doesn't hurt to keep practicing</h2>
     <h4>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</h4>
     <p>Emanual, Sr Strategist at Hiring.com</p>
   </div>
-  <div class="right-column2">
+  <div class="right-column2" id="jumbotron2-mobile">
     <div class="info">
       <div class="image">
-        <img src="./resources/images/information-orientation.jpg" alt="">
+        <img class="desktop" src="./resources/images/information-orientation.jpg" alt="">
+        <img class="mobile" src="./resources/images/information-orientation-mobile.jpg" alt="">
       </div>
         <div class="text">
           <h2>Orientation Date</h2>
@@ -70,7 +71,8 @@
     </div>
     <div class="info">
       <div class="image">
-        <img src="./resources/images/information-campus.jpg" alt="">
+        <img class="desktop" src="./resources/images/information-campus.jpg" alt="">
+        <img class="mobile" src="./resources/images/information-campus-mobile.jpg" alt="">
       </div>
         <div class="text">
           <h2>Our Campus</h2>
@@ -80,7 +82,8 @@
     </div>
     <div class="info">
       <div class="image">
-        <img src="./resources/images/information-guest-lecture.jpg" alt="">
+        <img class="desktop" src="./resources/images/information-guest-lecture.jpg" alt="">
+        <img class="mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
       </div>
         <div class="text">
           <h2>Our Guest Lecture</h2>
@@ -157,13 +160,11 @@
   </div>
 </div>
 <!--mobile learning-->
-      <div id="mobile-learning-title">
+      <div id="mobile-learning-title" class="mobile">
         <h1>Start Learning</h1>
       </div>
   <div class=" section mobile" id="mobile-learning">
-      <div class="major">
-        <h2>Software Engineering</h2>
-      </div>
+
       <div class="major">
         <h2>Computer art</h2>
       </div>
@@ -217,9 +218,9 @@
 
 <!--Footer-->
 
-<div class="footer flex-container">
+<div class="footer flex-container" id="mobile-footer">
 <p>&copy2016 Colmar Academy. All rights reserved</p>
-<ul>
+<ul class="desktop">
   <li><span>Terms</span></li>
   <li><span>Privacy</span></li>
 </ul>
